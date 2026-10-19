@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+}
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: yellow;
+}
+
+.container {
+    color: black;
+}
+
+.card {
+    background-color: yellow;
+}
+
+.table {
+    color: black;
+    background-color: yellow;
+}
+
+.img-perfil {
+    max-height: 220px;
+    object-fit: contain;
+}
+
+.logo-site {
+    width: 50px;
+}
+
+.card-site {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-site:hover {
+    transform: translateY(-10px) scale(1.08);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3) !important;
+}
+
+@media (min-width: 768px) {
+    .img-perfil {
+        max-height: 300px;
+    }
+
+    .logo-site {
+        width: 80px;
+    }
+
+    .card-text {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .img-perfil {
+        max-height: 350px;
+    }
+
+    .logo-site {
+        width: 100px;
+    }
+
+    .card-text {
+        font-size: 1.25rem;
+    }
+}
